@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.nuclearfarts.packeterrorlogger.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ClientConnectionMixin",
+    "DecoderHandlerMixin",
+    "PacketByteBufMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
