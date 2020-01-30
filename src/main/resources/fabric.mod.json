@@ -1,15 +1,20 @@
 {
   "schemaVersion": 1,
   "id": "packeterrorlogger",
-  "version": "1.0.0",
+  "version": "${version}",
 
-  "name": "Packet Error Logger",
-  "description": "debugging utility",
+  "name": "Packet Debugger",
+  "description": "Created out of rage at an issue that's been going for at least 4 months.",
   "authors": [
     "NuclearFarts"
   ],
 
   "environment": "client",
+  "entrypoints": {
+    "main": [
+      "io.github.nuclearfarts.packeterrorlogger.Initializer"
+    ]
+  },
   "mixins": [
     "packeterrorlogger.mixins.json"
   ],
